@@ -9,4 +9,6 @@ BuildingEscape/Content/StarterContent/
 
 #VS Generated Files
 */.vs/
+*/.vs/
+
 .vs/BuildingEscape/v15/.suo
