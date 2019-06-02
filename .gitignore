@@ -1,6 +1,9 @@
 #Unreal Generated Files
 Build/
 Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
 *_BuiltData.uasset
 BuildingEscape/Content/StarterContent/
 
