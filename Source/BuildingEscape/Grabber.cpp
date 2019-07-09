@@ -25,6 +25,16 @@ void UGrabber::BeginPlay()
 
 	UE_LOG(LogTemp, Warning, TEXT("Grabber On"));
 	
+	//Look for attached Physics Handle
+	PhysicsHandle = GetOwner()->FindComponentByClass<UPhysicsHandleComponent>();
+	if (PhysicsHandle)
+	{
+
+	}
+	else
+	{
+		UE_LOG(LogTemp, Error, TEXT("%s missing PhysicsHandleComponent"), *GetOwner()->GetName());
+	}
 }
 
 
@@ -71,4 +81,3 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 	  }
 	
 }
-
