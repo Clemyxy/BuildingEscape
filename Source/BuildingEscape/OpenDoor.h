@@ -36,9 +36,7 @@ private:
 	ATriggerVolume* PressurePlate;
 	
 	UPROPERTY(EditAnywhere)
-	AActor* ActorThatOpens;
-	
-	AActor * Owner;
+	AActor* Owner;
 	
 	UPROPERTY(EditAnywhere)
 	float DoorCloseDelay = 1.f;
@@ -48,4 +46,9 @@ private:
 	bool DoorIsClosed = true;
 
 	FRotator BaseRotation;
+	
+	UPROPERTY(EditAnywhere)
+		float TriggerMass = 50;
+
+	float GetTotalMassOfActorOnPlate();
 };
