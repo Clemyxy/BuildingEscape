@@ -48,7 +48,7 @@ private:
 	FRotator BaseRotation;
 	
 	UPROPERTY(EditAnywhere)
-		float TriggerMass = 50;
+	float TriggerMass = 30.f;
 
 	float GetTotalMassOfActorOnPlate();
 };
