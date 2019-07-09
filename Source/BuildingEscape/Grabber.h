@@ -51,5 +51,7 @@ private:
 
 	//Return hit for first physics body in reach
 	FHitResult GetFirstPhysicsBodyInReach() const;
+	
+	//Return the raycast start and end
 	FTwoVectors GetLineTracePoints() const;
 };
