@@ -21,8 +21,6 @@ void UOpenDoor::BeginPlay()
 {
 	Super::BeginPlay();
 	Owner = GetOwner();
-	if (!Owner) { return; }
-	BaseRotation = Owner->GetActorRotation();
 	if (!PressurePlate) 
 	{
 		UE_LOG(LogTemp,Error, TEXT("%s missing Pressure plate"), *GetOwner()->GetName())

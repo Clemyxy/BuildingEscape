@@ -38,11 +38,8 @@ private:
 	UPROPERTY(EditAnywhere)
 		AActor* Owner = nullptr;
 
-	float LastDoorOpenTime;
 
 	bool DoorIsClosed = true;
-
-	FRotator BaseRotation;
 	
 	UPROPERTY(EditAnywhere)
 		float TriggerMass = 30.f;
