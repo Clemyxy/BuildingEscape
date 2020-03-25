@@ -34,15 +34,15 @@ To do so, you can move around the object at your disposal.
 
 ## What I learned.
 The fundamentals of unreal :
--How to creat a project.
--How to navigate and use the Content Browser.
--How to use C++ in Unreal.
--Using UE_LOG to debug.
--Creating BPs:
-  -Adding Components in Unreal and Through C++.
-  -Uclass meta to bind a script to a component.
-  -Navigate the components child and parents.
-  -Usage of timelines.
-  -Creation of event.
+*How to creat a project.
+*How to navigate and use the Content Browser.
+*How to use C++ in Unreal.
+*Using UE_LOG to debug.
+*Creating BPs:
+  *Adding Components in Unreal and Through C++.
+  *Uclass meta to bind a script to a component.
+  *Navigate the components child and parents.
+  *Usage of timelines.
+  *Creation of event.
 
   
