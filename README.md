@@ -28,7 +28,7 @@ E or SpaceBar => fly upward for a time.
 ### Goal
 ![Image Du Jeu](https://github.com/Clemyxy/BuildingEscape/blob/master/Screen%20Building%20Escape.png)
 
-Your goal is to put enough pressure on the pressure plate (Where the purple light is),<br/> 
+Your goal is to put enough pressure on the pressure plate (Where the purple light is),
 which will trigger the opening of the door(WARNING: Loud sound when it opens).<br/>
 To do so, you can move around the object at your disposal.
 
