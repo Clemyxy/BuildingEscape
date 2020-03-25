@@ -17,13 +17,13 @@ Once unreal is installed, you can add this project to your projects list and the
 ### Commands
 
 You can interact in this game by using:
-W => Forward.
-Q => Left.
-S => Backward.
-D => Right.
-Right Mouse Button => Grab an item facing where you aim.
-Mouse rotation => Turn your character.
-E or SpaceBar => fly upward for a time.
+ * W => Forward.
+ * Q => Left.
+ * S => Backward.
+ * D => Right.
+ * Right Mouse Button => Grab an item facing where you aim.
+ * Mouse rotation => Turn your character.
+ * E or SpaceBar => fly upward for a time.
 
 ### Goal
 ![Image Du Jeu](https://github.com/Clemyxy/BuildingEscape/blob/master/Screen%20Building%20Escape.png)
